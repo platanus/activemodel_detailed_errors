@@ -2,6 +2,12 @@
 
 This is just a temporary gem to bring [this feature](https://github.com/rails/rails/pull/18322) that is scheduled for Rails 5 to the ancient world of Rails 4. This is a blatant copy and paste of that PR so full forward compatibility is ensured.
 
+## ActiveModel Detailed Errors is no longer maintained.
+
+- We will leave the Issues open as a discussion forum only.
+- We do not guarantee a response from us in the Issues.
+- We are no longer accepting pull requests.
+
 ## What this does?
 
 If you didn't read the PR, this is a fix to what `ActiveModel#Error` does. When you validate something, you get errors wrapped in this object. In Rails 3 and 4, this object just contained a simple **string** with the message of the validation. That was a very limited behavior because when you did this:
